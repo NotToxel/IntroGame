@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Header.uss?fileID=7433441132597879392&amp;guid=cbd8b989634f112469444c3fb6eae281&amp;type=3#Header" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Score: 0" display-tooltip-when-elided="true" enable-rich-text="false" name="Score" class="header" />
+        <ui:Label tabindex="-1" display-tooltip-when-elided="true" enable-rich-text="false" name="Win" class="header" style="white-space: nowrap; align-self: center; justify-content: flex-start; align-items: auto;" />
+    </ui:VisualElement>
+</ui:UXML>
